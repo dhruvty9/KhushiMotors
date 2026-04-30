@@ -1,0 +1,37 @@
+Initialized native services in: C:\Users\Dhruv Tyagi\.gradle\native
+Initialized jansi services in: C:\Users\Dhruv Tyagi\.gradle\native
+Found daemon DaemonInfo{pid=19548, address=[8ef97b0b-da85-4c7b-a27a-913a1f8be3d1 port:52316, addresses:[/127.0.0.1]], state=Idle, lastBusy=1776852427020, context=DefaultDaemonContext[uid=b483dd4e-9096-4033-952d-0ddf5e349404,javaHome=C:\Users\Dhruv Tyagi\.antigravity\extensions\redhat.java-1.54.0-win32-x64\jre\21.0.10-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\Dhruv Tyagi\.gradle\daemon,pid=19548,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-25 (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=b483dd4e-9096-4033-952d-0ddf5e349404,javaHome=C:\Users\Dhruv Tyagi\.antigravity\extensions\redhat.java-1.54.0-win32-x64\jre\21.0.10-win32-x86_64,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=C:\Users\Dhruv Tyagi\.gradle\daemon,pid=19548,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=23512, address=[051cbb10-8ad6-4033-8b8c-68cfe967d51c port:56295, addresses:[/127.0.0.1]], state=Idle, lastBusy=1776852745707, context=DefaultDaemonContext[uid=0314a51c-374d-4093-9055-da5513e7e192,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\Dhruv Tyagi\.gradle\daemon,pid=23512,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-25 (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=0314a51c-374d-4093-9055-da5513e7e192,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\Dhruv Tyagi\.gradle\daemon,pid=23512,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 2408). The daemon log file: C:\Users\Dhruv Tyagi\.gradle\daemon\8.13\daemon-2408.out.log
+Starting 17th build in daemon [uptime: 39 mins 27.589 secs, performance: 93%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Now considering [C:\Users\Dhruv Tyagi\AndroidStudioProjects\KhushiMotors] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Caching disabled for Kotlin DSL script compilation (Settings/TopLevel/stage1) because:
+  Build cache is disabled
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+25
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 850ms
+Watched directory hierarchies: []

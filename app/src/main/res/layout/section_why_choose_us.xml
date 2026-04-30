@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/SectionLabel"
+        android:text="WHAT WE PROVIDE" />
+
+    <TextView
+        style="@style/SectionTitle"
+        android:text="Built on Trust. Driven by Quality."
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Everything we do is designed to give you a stress-free, reliable experience."
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Feature Row 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="👨‍🔧" android:textSize="36sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50+" android:textColor="@color/brand_red" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="8dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SPECIALISTS" android:textColor="@color/text_secondary" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.1" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Expert Mechanics" android:textColor="@color/brand_navy" android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="8dp" android:textAlignment="center" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Certified professionals with 10+ years experience" android:textColor="@color/text_secondary" android:textSize="11sp" android:textAlignment="center" android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💰" android:textSize="36sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30%" android:textColor="@color/brand_red" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="8dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="COST EFFECTIVE" android:textColor="@color/text_secondary" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.1" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Affordable Price" android:textColor="@color/brand_navy" android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="8dp" android:textAlignment="center" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Transparent pricing with no hidden charges" android:textColor="@color/text_secondary" android:textSize="11sp" android:textAlignment="center" android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <!-- Feature Row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="⚡" android:textSize="36sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="&lt;24h" android:textColor="@color/brand_red" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="8dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FAST TURNAROUND" android:textColor="@color/text_secondary" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.1" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quick Service" android:textColor="@color/brand_navy" android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="8dp" android:textAlignment="center" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Most repairs completed within the day" android:textColor="@color/text_secondary" android:textSize="11sp" android:textAlignment="center" android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🔬" android:textSize="36sp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100%" android:textColor="@color/brand_red" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="8dp" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UP-TO-DATE TECH" android:textColor="@color/text_secondary" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.1" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Modern Equipment" android:textColor="@color/brand_navy" android:textSize="14sp" android:textStyle="bold" android:layout_marginTop="8dp" android:textAlignment="center" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Latest diagnostic tools and OEM-grade equipment" android:textColor="@color/text_secondary" android:textSize="11sp" android:textAlignment="center" android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <!-- How It Works -->
+    <TextView
+        style="@style/SectionLabel"
+        android:text="SIMPLE PROCESS"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        style="@style/SectionTitle"
+        android:text="How It Works"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:padding="8dp">
+            <TextView android:layout_width="48dp" android:layout_height="48dp" android:text="1" android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:background="@drawable/bg_step_circle_red" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Book Your Service" android:textColor="@color/brand_navy" android:textSize="12sp" android:textStyle="bold" android:textAlignment="center" android:layout_marginTop="8dp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Online or via phone" android:textColor="@color/text_secondary" android:textSize="11sp" android:textAlignment="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="→" android:textColor="@color/brand_red" android:textSize="24sp" android:layout_gravity="center" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:padding="8dp">
+            <TextView android:layout_width="48dp" android:layout_height="48dp" android:text="2" android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:background="@drawable/bg_step_circle_navy" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Expert Service" android:textColor="@color/brand_navy" android:textSize="12sp" android:textStyle="bold" android:textAlignment="center" android:layout_marginTop="8dp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quality parts &amp; care" android:textColor="@color/text_secondary" android:textSize="11sp" android:textAlignment="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="→" android:textColor="@color/brand_red" android:textSize="24sp" android:layout_gravity="center" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:gravity="center" android:padding="8dp">
+            <TextView android:layout_width="48dp" android:layout_height="48dp" android:text="3" android:textColor="@color/white" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:background="@drawable/bg_step_circle_red" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Free Pickup &amp; Drop" android:textColor="@color/brand_navy" android:textSize="12sp" android:textStyle="bold" android:textAlignment="center" android:layout_marginTop="8dp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Within 1 km radius" android:textColor="@color/text_secondary" android:textSize="11sp" android:textAlignment="center" android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

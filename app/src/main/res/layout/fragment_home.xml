@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <!-- Main Content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Hero Section -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khushimotors"
+                android:minHeight="700dp">
+
+                <!-- Overlay -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/overlay_dark" />
+
+                <!-- Top Bar -->
+                <LinearLayout
+                    android:id="@+id/top_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="45dp"
+                    android:paddingBottom="16dp"
+                    android:paddingHorizontal="16dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/bg_top_gradient"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/khusimotors" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:id="@+id/btn_menu"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/ic_menu_white"
+                        android:padding="4dp"
+                        android:clickable="true"
+                        android:focusable="true" />
+                </LinearLayout>
+
+                <!-- Announcement Banner -->
+                <TextView
+                    android:id="@+id/tv_announcement_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/brand_red"
+                    android:text="@string/anniversary_offer"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    app:layout_constraintTop_toBottomOf="@id/top_bar" />
+
+                <!-- Center Card -->
+                <LinearLayout
+                    android:id="@+id/center_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_dashboard_card"
+                    android:padding="24dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    app:layout_constraintTop_toBottomOf="@id/tv_announcement_banner"
+                    app:layout_constraintBottom_toTopOf="@id/bottom_card">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/trusted_service_title"
+                        android:textColor="@color/white"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/serving_since"
+                        android:background="@drawable/bg_red_button_rounded"
+                        android:textColor="@color/white"
+                        android:paddingHorizontal="16dp"
+                        android:paddingVertical="8dp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fast_service_promo"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <!-- Bottom Card -->
+                <LinearLayout
+                    android:id="@+id/bottom_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_dashboard_bottom_card"
+                    android:padding="16dp"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginBottom="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/book_car_wash_promo"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:layout_marginBottom="12dp" />
+
+                    <Button
+                        android:id="@+id/btn_check_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/bg_red_button_rounded"
+                        android:text="@string/check_price"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Stats Section -->
+            <LinearLayout
+                android:id="@+id/stats_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:padding="24dp"
+                android:gravity="center">
+
+                <LinearLayout style="@style/StatItem">
+                    <TextView style="@style/StatNumber" android:text="@string/stat_experience" />
+                    <TextView style="@style/StatLabel" android:text="@string/stat_experience_label" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/StatItem">
+                    <TextView style="@style/StatNumber" android:text="@string/stat_cars" />
+                    <TextView style="@style/StatLabel" android:text="@string/stat_cars_label" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/StatItem">
+                    <TextView style="@style/StatNumber" android:text="@string/stat_technicians" />
+                    <TextView style="@style/StatLabel" android:text="@string/stat_technicians_label" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/StatItem">
+                    <TextView style="@style/StatNumber" android:text="@string/stat_rating" />
+                    <TextView style="@style/StatLabel" android:text="@string/stat_rating_label" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Services Section -->
+            <include
+                android:id="@+id/section_services"
+                layout="@layout/section_services" />
+
+            <!-- Service Packages Section -->
+            <include
+                android:id="@+id/section_service_packages"
+                layout="@layout/section_service_packages" />
+
+            <!-- Washing Packages Section -->
+            <include
+                android:id="@+id/section_washing_packages"
+                layout="@layout/section_washing_packages" />
+
+            <!-- Why Choose Us Section -->
+            <include
+                android:id="@+id/section_why_choose_us"
+                layout="@layout/section_why_choose_us" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Side Drawer -->
+    <include
+        android:id="@+id/drawer_menu_include"
+        layout="@layout/drawer_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/bg_secondary"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/SectionLabel"
+        android:text="WASHING PACKAGES" />
+
+    <TextView
+        style="@style/SectionTitle"
+        android:text="Washing Packages"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the perfect wash package for your car."
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Horizontal scroll for wash packages -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Basic Wash -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🚿" android:textSize="36sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Basic Wash" android:textColor="@color/brand_navy" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="12dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quick outer cleaning for a fresh look" android:textColor="@color/text_secondary" android:textSize="13sp" android:layout_marginTop="6dp" android:layout_marginBottom="16dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Outer Body Wash" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Water Rinse" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Basic Drying" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Tyre Cleaning" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="20dp" />
+                    <Button
+                        android:id="@+id/btn_book_basic_wash"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_red_button_rounded"
+                        android:text="Book Basic Wash"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Standard Wash -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:strokeColor="@color/brand_red"
+                app:strokeWidth="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🫧" android:textSize="36sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Standard Wash" android:textColor="@color/brand_navy" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="12dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Complete cleaning inside and outside" android:textColor="@color/text_secondary" android:textSize="13sp" android:layout_marginTop="6dp" android:layout_marginBottom="16dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Outer Body Wash" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Foam Wash" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Interior Vacuum" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Dashboard Cleaning" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Tyre Polish" android:textColor="@color/text_primary" android:textSize="13sp" android:layout_marginBottom="20dp" />
+                    <Button
+                        android:id="@+id/btn_book_standard_wash"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_red_button_rounded"
+                        android:text="Choose Standard"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Premium Wash -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/brand_navy"
+                    android:padding="20dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="💎" android:textSize="36sp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Premium Wash" android:textColor="@color/white" android:textSize="18sp" android:textStyle="bold" android:layout_marginTop="12dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Deep cleaning with premium finish" android:textColor="#AAAACC" android:textSize="13sp" android:layout_marginTop="6dp" android:layout_marginBottom="16dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• High Pressure Wash" android:textColor="@color/white" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Foam Wash" android:textColor="@color/white" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Interior Deep Cleaning" android:textColor="@color/white" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Seat Shampooing" android:textColor="@color/white" android:textSize="13sp" android:layout_marginBottom="4dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="• Dashboard Polishing" android:textColor="@color/white" android:textSize="13sp" android:layout_marginBottom="20dp" />
+                    <Button
+                        android:id="@+id/btn_book_premium_wash"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:background="@drawable/bg_red_button_rounded"
+                        android:text="Go Premium"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free pickup &amp; drop available. Premium quality products used in all washes."
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

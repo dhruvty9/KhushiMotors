@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Khushi Motors</string>
+
+    <!-- Login -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="enter_mobile_number">Enter your mobile number to receive a one-time password.</string>
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="country_code">+91</string>
+    <string name="phone_hint">9876543210</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="login_as_admin">Login As Admin</string>
+    <string name="footer_text">By continuing, you agree to our Terms of Service &amp; Privacy Policy</string>
+    <string name="logo_description">Khushi Motors Logo</string>
+    <string name="close_description">Close</string>
+    <string name="phone_icon_description">Phone Icon</string>
+
+    <!-- Home -->
+    <string name="trusted_service_title">Trusted Car Service &amp; Repair in Dehradun</string>
+    <string name="serving_since">Serving Since 2009</string>
+    <string name="fast_service_promo">Fast, Reliable &amp; Transparent Service</string>
+    <string name="genuine_parts_promo">Genuine Spare Parts Guaranteed</string>
+    <string name="expert_mechanics_promo">Expert Mechanics on Duty</string>
+    <string name="book_car_wash_promo">➤ Book your car wash in just a few clicks ➤</string>
+    <string name="anniversary_offer">🎉 Anniversary Special — 100% FREE Labour Charges on Car Service!</string>
+    <string name="book_now">Book Now</string>
+    <string name="call_us">Call Us</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="view_all_services">View All Services →</string>
+    <string name="check_price">Check Price</string>
+
+    <!-- Stats -->
+    <string name="stat_experience">15+</string>
+    <string name="stat_experience_label">Years Experience</string>
+    <string name="stat_cars">10000+</string>
+    <string name="stat_cars_label">Cars Serviced</string>
+    <string name="stat_technicians">50+</string>
+    <string name="stat_technicians_label">Certified Technicians</string>
+    <string name="stat_rating">4.8★</string>
+    <string name="stat_rating_label">Rated Service</string>
+
+    <!-- Services -->
+    <string name="our_services">Our Services</string>
+    <string name="services_subtitle">Expert craftsmanship, genuine parts, and unparalleled service quality</string>
+    <string name="service_car_service">Car Service</string>
+    <string name="service_car_wash">Car Washing</string>
+    <string name="service_suspension">Suspension Repair</string>
+    <string name="service_general_repair">General Repair</string>
+    <string name="service_ac">AC Service</string>
+    <string name="service_detailing">Detailing Services</string>
+    <string name="service_emergency">Emergency Services</string>
+
+    <!-- About -->
+    <string name="about_title">About Khushi Motors</string>
+    <string name="about_subtitle">17 Years of Trust &amp; Quality Service</string>
+    <string name="about_description">Khushi Motors has been serving Dehradun since 2009 with professional car care. We are committed to providing transparent pricing, genuine spare parts, and expert service for all car brands.</string>
+    <string name="why_choose_us">Why Choose Us?</string>
+    <string name="genuine_parts">Genuine Spare Parts</string>
+    <string name="transparent_pricing">Transparent Pricing</string>
+    <string name="free_pickup">Free Pickup &amp; Drop (within 1 km)</string>
+    <string name="experienced_staff">Experienced Staff</string>
+    <string name="years_experience">16+ Years Experience</string>
+
+    <!-- Contact -->
+    <string name="contact_title">Contact Us</string>
+    <string name="address">G.M.S. Road, Haripuram, Dehradun, Uttarakhand, India - 248001</string>
+    <string name="phone1">+91 6397759757</string>
+    <string name="phone2">+91 9368991221</string>
+    <string name="email">Khushimotorsgms@gmail.com</string>
+    <string name="hours">Mon–Sat: 9:00 AM – 7:00 PM</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_services">Services</string>
+    <string name="nav_about">About</string>
+    <string name="nav_contact">Contact</string>
+    <string name="nav_booking">My Booking</string>
+</resources>

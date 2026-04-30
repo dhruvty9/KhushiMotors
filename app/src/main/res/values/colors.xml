@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand Colors -->
+    <color name="brand_red">#D32F2F</color>
+    <color name="brand_red_dark">#B71C1C</color>
+    <color name="brand_red_light">#FFCDD2</color>
+    <color name="brand_navy">#1A237E</color>
+    <color name="brand_navy_light">#3949AB</color>
+
+    <!-- Background Colors -->
+    <color name="bg_primary">#FFFFFF</color>
+    <color name="bg_secondary">#F8F9FA</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_dark">#0D1117</color>
+    <color name="bg_dark_card">#161B22</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- UI Colors -->
+    <color name="divider">#E5E7EB</color>
+    <color name="ripple">#1AD32F2F</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="star_yellow">#FFC107</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="badge_bg">#FFF3E0</color>
+    <color name="badge_text">#E65100</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_selected">#D32F2F</color>
+    <color name="bottom_nav_unselected">#9CA3AF</color>
+</resources>
